@@ -11,6 +11,9 @@ public class Main {
         System.out.println("Ingrese Precio del Producto");
         int precioProducto = scanner.nextInt();
 
+        System.out.println("cantidad");
+        int cantidad = scanner.nextInt();
+
         scanner.close();
     }
 }
