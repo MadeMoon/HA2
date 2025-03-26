@@ -70,9 +70,9 @@ public class Main {
             if (eliminarProducto >= 0 && eliminarProducto < producto.size()) {
                 producto.remove(eliminarProducto);
                 precios.remove(eliminarProducto);
-                System.out.println("Producto eliminado correctamente.");
+                System.out.println("Producto Eliminado");
             } else {
-                System.out.println("Índice de producto no válido.");
+                System.out.println("No se encontro");
             }
 
 
